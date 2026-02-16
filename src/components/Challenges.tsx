@@ -14,7 +14,7 @@ const challenges = [
 export default function Challenges() {
   return (
     <section className="theme-bright">
-      <Container className="py-16 md:py-0">
+      <Container className="py-24 md:py-0">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-0">
           <div className="order-1">
             <img

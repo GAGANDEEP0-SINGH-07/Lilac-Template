@@ -30,7 +30,7 @@ const specialties = [
 export default function Services() {
   return (
     <section className="theme-white">
-      <Container className="py-16 md:py-28">
+      <Container className="py-24 md:py-32">
         <div className="mx-auto max-w-[70rem]">
           <h2 className="text-center">My Specialties</h2>
 

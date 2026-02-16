@@ -3,7 +3,7 @@ import Container from "./Container";
 export default function Contact() {
   return (
     <section id="contact" className="theme-dark">
-      <Container className="py-16 text-center md:py-24">
+      <Container className="py-24 text-center md:py-32">
         <div className="mx-auto max-w-[48rem] space-y-5">
           <h3>Get started today.</h3>
           <p>

@@ -5,8 +5,8 @@ const heroImage =
 
 export default function Hero() {
   return (
-    <section className="theme-white pt-24 md:pt-28">
-      <Container className="pb-16 md:pb-24">
+    <section className="theme-white pt-32 md:pt-44">
+      <Container className="pb-20 md:pb-32">
         <div className="mx-auto grid max-w-[48rem] gap-9 md:gap-10">
           <div className="mx-auto w-[78vw] max-w-[25rem] md:w-[32vw] md:max-w-[26rem]">
             <div className="arch-mask">

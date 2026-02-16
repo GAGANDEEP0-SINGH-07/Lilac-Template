@@ -8,7 +8,7 @@ const flowerImage =
 export default function Profile() {
   return (
     <section className="theme-light">
-      <Container className="py-16 md:py-20">
+      <Container className="py-24 md:py-32">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="order-2 space-y-6 md:order-1 md:pr-8">
             <h2>Hi, I&apos;m Lilac.</h2>

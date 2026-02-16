@@ -6,7 +6,7 @@ const introImage =
 export default function About() {
   return (
     <section className="theme-light">
-      <Container className="py-16 md:py-0">
+      <Container className="py-24 md:py-0">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-0">
           <div className="order-2 space-y-5 md:order-1 md:pr-10 md:py-20">
             <h2>Live a fulfilling life.</h2>

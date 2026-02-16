@@ -13,7 +13,7 @@ const items = [
 export default function ProfessionalBackground() {
   return (
     <section className="theme-light">
-      <Container className="py-16 md:py-20">
+      <Container className="py-24 md:py-32">
         <div className="mx-auto max-w-[42rem]">
           <h3 className="text-center">My Professional Background</h3>
           <Accordion

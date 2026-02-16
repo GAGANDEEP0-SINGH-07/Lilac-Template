@@ -5,12 +5,15 @@
   --black-hsl: 95.29 45.95% 14.51%;
   --light-accent-hsl: 32.73 17.46% 87.65%;
   --dark-accent-hsl: 56.79 28.57% 38.43%;
-  --bright-hsl: 43 23% 92%;
-  --site-max-width: 1500px;
+  --bright-hsl: 270 50% 96%;
+  /* Lilac/Lavender accent */
+  --site-max-width: 1200px;
+  /* Tighter editorial layout */
   --site-gutter-mobile: 6vw;
   --site-gutter-desktop: 3.75vw;
-  --font-family-main: "gopher", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-weight-heading: 500;
+  --font-family-main: var(--font-manrope), sans-serif;
+  --font-family-heading: var(--font-syne), sans-serif;
+  --font-weight-heading: 700;
   --font-weight-body: 400;
   --h1-size: clamp(2.45rem, 6vw, 4.5rem);
   --h2-size: clamp(1.9rem, 4.6vw, 3rem);
@@ -21,6 +24,7 @@
 }
 
 @keyframes fonts-loading {
+
   0%,
   99% {
     color: transparent;
@@ -63,7 +67,7 @@ h3,
 h4 {
   margin: 0;
   color: hsl(var(--black-hsl));
-  font-family: var(--font-family-main);
+  font-family: var(--font-family-heading);
   font-style: normal;
   font-weight: var(--font-weight-heading);
   letter-spacing: 0;

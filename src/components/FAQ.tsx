@@ -13,7 +13,7 @@ const faqItems = [
 export default function FAQ() {
   return (
     <section id="faqs" className="theme-white">
-      <Container className="py-16 md:py-20">
+      <Container className="py-24 md:py-32">
         <div className="grid items-start gap-10 md:grid-cols-[0.95fr_1.05fr] md:gap-16">
           <div className="mx-auto w-full max-w-[30rem] md:mx-0">
             <div className="arch-mask">
